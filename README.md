@@ -1,18 +1,18 @@
 # MII_CC_Proyecto_MicroServicios
 
-## MicroServicios web de Preguntas & Lugares
+## MicroServicios web de "Preguntas & Respuestas" y "Lugares"
 
 Servicios para ayudaran al funcionamiento del Juego "Prelo&quot" ya que consiste en resolver preguntas que otros usuarios seleccionaran en el mapa.
 
-En este [enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/) podrás informarte de que consiste el Juego "Prelo"
+En este ***[enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/)*** podrás informarte de que consiste el Juego "Prelo"
 
 ### **Solución propuesta**
 
-Desarrollar micro servicios para abastecer un juego móvil (Android), brindándole preguntas y respuestas aleatorias e información de lugares.
+Desarrollar microservicios para abastecer un juego móvil (Android), brindándole preguntas y respuestas aleatorias e información de lugares.
 
 ### **Introducción descriptiva del proyecto**
 
-El proyecto consta de un servidor con dos micros servicios los cuales podrían utilizar los siguientes requerimientos:
+El proyecto consta de un servidor con dos microservicios los cuales podrían utilizar los siguientes requerimientos:
 
 - Ubuntu 16.04 o Debian 7 and 8, SUSE Linux Enterprise Server 12 and 12 SP1, Red Hat Enterprise Linux/Centos 6.5 and 7 Base de datos
 - PHP (5.6+ or 7.0+)
@@ -22,19 +22,27 @@ El proyecto consta de un servidor con dos micros servicios los cuales podrían u
 
 ### Arquitectura
 
-La arquitectura es basada en micro servicios en los cuales tenemos dos:"El de preguntas y respuestas" & "Lugares"
+La arquitectura es basada en microservicios en los cuales tenemos dos:"El de preguntas y respuestas" & "Lugares"
+
+### Logo de los microservicios
+
+Los logos de los microservicios son los siguientes:
+
+| **Preguntas & Respuestas**    | **Lugares** |
+|---------------------------------| ------------|
+![logopreguntitas](https://user-images.githubusercontent.com/32844919/33189492-6b04b62c-d0a3-11e7-8399-a19806d14fd2.jpeg)|![logolugarcitos](https://user-images.githubusercontent.com/32844919/33189484-5c918494-d0a3-11e7-9dfc-c656f44b20bc.jpeg)
 
 ### Web del proyecto
 
-En la página web podrás encontrar la documentación de todo el proyecto enlace
+En la página web podrás encontrar la documentación de todo el proyecto ***[enlace](https://javierfrereq.github.io/MII_CC_Proyecto_MicroServicios/)***
 
 
 ### Provisionamiento
 
-El provisionamiento de los servicios lo puedes encontrar en este enlace
+El provisionamiento de los servicios lo puedes encontrar en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/chef-solo/README.md)***
 
 
 ### Licencia
 
-Proyecto bajo licencia [GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)
+Proyecto bajo licencia ***[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)***
 
