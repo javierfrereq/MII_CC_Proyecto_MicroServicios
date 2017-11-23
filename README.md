@@ -6,7 +6,7 @@ En este ***[enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/)*** podrás inf
 
 ### **Solución propuesta**
 
-Desarrollar microservicios para abastecer un juego móvil (Android), brindándole preguntas y respuestas aleatorias e información de lugares.
+Desarrollar microservicios para ser utilizados en una aplicación móvil (Android), brindándole preguntas y respuestas aleatorias e información de lugares.
 
 ### **Introducción descriptiva del proyecto**
 
