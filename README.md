@@ -1,8 +1,6 @@
-# MII_CC_Proyecto_MicroServicios
+# MicroServicios web de "Preguntas & Respuestas" y "Lugares"
 
-## MicroServicios web de "Preguntas & Respuestas" y "Lugares"
-
-Servicios para ayudaran al funcionamiento del Juego "Prelo&quot" ya que consiste en resolver preguntas que otros usuarios seleccionaran en el mapa.
+Proyecto se basa en ayudar al funcionamiento del Juego "Prelo" ya que este consiste en resolver preguntas que otros usuarios seleccionaran en el mapa.
 
 En este ***[enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/)*** podrás informarte de que consiste el Juego "Prelo"
 
@@ -22,7 +20,15 @@ El proyecto consta de un servidor con dos microservicios los cuales podrían uti
 
 ### Arquitectura
 
-La arquitectura es basada en microservicios en los cuales tenemos dos:"El de preguntas y respuestas" & "Lugares"
+La arquitectura es basada en microservicios.
+
+**¿Qué son microservicios?**
+
+>Consiste en desarrollar una aplicación software como una serie de pequeños servicios, cada uno ejecutándose de forma autónoma y comunicándose entre sí.
+
+>Además, cada uno es independiente y su código debe poder ser desplegado sin afectar a los demás. Incluso cada uno de ellos puede escribirse en un lenguaje de programación diferente, ya que solo exponen la API (una interfaz común, a la que le da igual el lenguaje de programación en la que el microservicio esté programado por debajo) al resto de microservicios.
+
+Los microservicios a desarrollar son los siguientes:"Preguntas & Respuestas" y "Lugares"
 
 ### Logo de los microservicios
 
