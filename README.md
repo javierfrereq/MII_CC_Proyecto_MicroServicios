@@ -46,7 +46,7 @@ En la página web podrás encontrar la documentación de todo el proyecto ***[en
 
 La automatización se ha realizado utilizando el cliente de Azure. La imagen utilizada ha sido "UbuntuLTS", la documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
 
-Despliegue:52.166.220.63
+* Despliegue:52.174.57.150
 
 
 ### Provisionamiento
