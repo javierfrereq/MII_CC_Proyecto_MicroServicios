@@ -42,6 +42,11 @@ Los logos de los microservicios son los siguientes:
 
 En la página web podrás encontrar la documentación de todo el proyecto ***[enlace](https://javierfrereq.github.io/MII_CC_Proyecto_MicroServicios/)***
 
+### Automatización para la creación de maquinas virtuales
+
+La automatización se ha realizado utilizando el cliente de Azure. La imagen utilizada ha sido "UbuntuLTS", la documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
+
+* Despliegue:52.174.57.150
 
 ### Provisionamiento
 
