@@ -10,7 +10,7 @@ Desarrollar microservicios para ser utilizados en una aplicación móvil (Androi
 
 ### **Introducción descriptiva del proyecto**
 
-El proyecto consta de un servidor con dos microservicios los cuales podrían utilizar los siguientes requerimientos:
+El proyecto consta de un servidor con dos microservicios, los cuales podrían utilizar los siguientes requerimientos:
 
 - Ubuntu 16.04 o Debian 7 and 8, SUSE Linux Enterprise Server 12 and 12 SP1, Red Hat Enterprise Linux/Centos 6.5 and 7 Base de datos
 - PHP (5.6+ or 7.0+)
@@ -42,10 +42,17 @@ Los logos de los microservicios son los siguientes:
 
 En la página web podrás encontrar la documentación de todo el proyecto ***[enlace](https://javierfrereq.github.io/MII_CC_Proyecto_MicroServicios/)***
 
+##Automatización para la creación de maquinas virtuales
+
+La automatización se ha realizado utilizando el cliente de Azure. La imagen utilizada ha sido "UbuntuLTS", la documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
+
+Despliegue:52.166.220.63
+
 
 ### Provisionamiento
 
 El provisionamiento de los servicios lo puedes encontrar en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/chef-solo/README.md)***
+
 
 
 ### Licencia
