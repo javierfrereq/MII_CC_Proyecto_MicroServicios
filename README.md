@@ -48,7 +48,7 @@ La automatización se ha realizado utilizando el cliente de Azure. La imagen uti
 
 **¿Porque utilizar UbuntuLTS?**
 
-Se decidió utilizar “UbuntuLTS” ya que LTS significa sólo que la versión recibe un "soporte a largo plazo"(Long Term Support).
+Se decidió utilizar “UbuntuLTS” ya que LTS significa sólo que la versión recibe un "soporte a largo plazo"(Long Term Support)
 Esta versión de Ubuntu será soportada oficialmente por Canonical durante los próximos cinco años; eso significa que seguirá recibiendo actualizaciones de seguridad, y que el software incluido se centra en la estabilidad.
 
 La documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
