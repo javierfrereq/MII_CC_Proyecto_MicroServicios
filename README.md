@@ -1,6 +1,6 @@
 # MicroServicios web de "Preguntas & Respuestas" y "Lugares"
 
-Proyecto se basa en ayudar al funcionamiento del Juego "Prelo" ya que este consiste en resolver preguntas que otros usuarios seleccionaran en el mapa.
+Proyecto se basa en ayudar al funcionamiento del Juego "Prelo" ya que este consiste en resolver preguntas que otros usuarios seleccionaran en el mapa
 
 En este ***[enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/)*** podrás informarte de que consiste el Juego "Prelo".
 
