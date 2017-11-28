@@ -28,7 +28,7 @@ La arquitectura es basada en microservicios.
 
 >Además, cada uno es independiente y su código debe poder ser desplegado sin afectar a los demás. Incluso cada uno de ellos puede escribirse en un lenguaje de programación diferente, ya que solo exponen la API (una interfaz común, a la que le da igual el lenguaje de programación en la que el microservicio esté programado por debajo) al resto de microservicios.
 
-Los microservicios a desarrollar son los siguientes:"Preguntas & Respuestas" y "Lugares"
+Los microservicios a desarrollar son los siguientes:"Preguntas & Respuestas" y "Lugares".
 
 ### Logo de los microservicios
 
