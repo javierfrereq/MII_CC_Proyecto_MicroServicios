@@ -44,7 +44,13 @@ En la página web podrás encontrar la documentación de todo el proyecto ***[en
 
 ### Automatización para la creación de maquinas virtuales
 
-La automatización se ha realizado utilizando el cliente de Azure. La imagen utilizada ha sido "UbuntuLTS", la documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
+La automatización se ha realizado utilizando el cliente de Azure. La imagen utilizada ha sido "UbuntuLTS".
+
+**¿Porque utilizar UbuntuLTS?**
+Se decidió utilizar “UbuntuLTS” ya que LTS significa sólo que la versión recibe un "soporte a largo plazo"(Long Term Support).
+Esta versión de Ubuntu será soportada oficialmente por Canonical durante los próximos cinco años; eso significa que seguirá recibiendo actualizaciones de seguridad, y que el software incluido se centra en la estabilidad.
+
+La documentación se detalla en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/automatizacion/README.md)***
 
 * Despliegue:52.174.57.150
 
