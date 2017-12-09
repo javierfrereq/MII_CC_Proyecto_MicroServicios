@@ -71,5 +71,5 @@ La documentación se detalla en este **[enlace](https://github.com/javierfrereq/
 
 ### Licencia
 
-Proyecto bajo licencia ***[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)***
+Proyecto bajo licencia **[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)**
 
