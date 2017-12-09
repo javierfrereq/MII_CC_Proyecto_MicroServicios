@@ -67,7 +67,6 @@ La documentación se detalla en este **[enlace](https://github.com/javierfrereq/
 
 * Despliegue:52.232.119.162
 
-
 ### Licencia
 
 Proyecto bajo licencia ***[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)***
