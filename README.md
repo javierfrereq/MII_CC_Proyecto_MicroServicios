@@ -59,6 +59,13 @@ La documentación se detalla en este ***[enlace](https://github.com/javierfrereq
 
 El provisionamiento de los servicios lo puedes encontrar en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/chef-solo/README.md)***
 
+### Orquestación 
+
+La orquestación se realizó utilizando la Vagrant 2.0.1 y del cliente Azure, he decidido utilizar este cliente ya que nos facilita la información para configurar el vagrant de forma más sencilla.
+Para más información ir al **[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/README.md)**
+
+* Despliegue:52.232.119.162
+
 
 ### Licencia
 
