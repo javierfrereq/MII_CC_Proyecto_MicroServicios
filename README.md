@@ -65,7 +65,7 @@ La orquestación se realizó utilizando la Vagrant 2.0.1 y del cliente Azure, he
 
 La documentación se detalla en este **[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/README.md)**
 
-* Despliegue:52.166.234.128
+* Despliegue Vagrant:52.166.234.128
 
 ### Licencia
 
