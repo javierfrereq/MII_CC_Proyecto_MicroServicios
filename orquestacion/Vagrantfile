@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.define "cc-preguntas" do |serviceObject|
+  config.vm.define "RemoteCCJavier" do |serviceObject|
     serviceObject.vm.box = 'azure'
 
     serviceObject.ssh.private_key_path = '~/.ssh/id_rsa'
@@ -9,8 +9,8 @@ Vagrant.configure("2") do |config|
       #Set a territory
       azure.location="westeurope"
 
-      azure.resource_group_name="CC-Proyecto-Javier"
-      azure.vm_name="cc-preguntas"
+      azure.resource_group_name="CCJavier"
+      azure.vm_name="RemoteCCJavier"
 
       azure.vm_image_urn="Canonical:UbuntuServer:16.04-LTS:latest"
 
@@ -19,10 +19,7 @@ Vagrant.configure("2") do |config|
       azure.client_secret = ENV['AZURE_CLIENT_SECRET']
       azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
     end
-      serviceObject.vm.provision "ansible" do |ansible|
-      ansible.playbook = "provision.yml"
-    end
-
+     
  end
 
 config.vm.define "cc-lugares" do |serviceImage|
@@ -35,7 +32,7 @@ config.vm.define "cc-lugares" do |serviceImage|
       #Set a territory
       azure.location="westeurope"
 
-      azure.resource_group_name="CC-Proyecto-Javier"
+      azure.resource_group_name="CCJavier"
       azure.vm_name="cc-lugares"
 
       azure.vm_image_urn="Canonical:UbuntuServer:16.04-LTS:latest"
@@ -45,9 +42,6 @@ config.vm.define "cc-lugares" do |serviceImage|
       azure.client_secret = ENV['AZURE_CLIENT_SECRET']
       azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
      
-      serviceImage.vm.provision "ansible" do |ansible|
-      ansible.playbook = "provision.yml"
-	end
   end
 
 end
