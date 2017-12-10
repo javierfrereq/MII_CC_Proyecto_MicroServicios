@@ -12,21 +12,30 @@ La ventaja de Vagrant es que tiene “Cajas – Contenedores” con sistemas ope
 Iniciamos sesión en el terminal ``` az login``` .
 Ejecutamos el siguiente comando ``` az ad sp create-for-rbac```  para crear una Aplicación de Azure con acceso al Administrador de Recursos de Azure y obtener los siguientes parámetros:
 
+
   ```azure.tenant_id = ENV['AZURE_TENANT_ID']```
+
   ```azure.client_id = ENV['AZURE_CLIENT_ID']```
+
   ```azure.client_secret = ENV['AZURE_CLIENT_SECRET']```
+
   
 Ejecutamos ``` az account list --query "[?isDefault].id" -o tsv``` para obtener el ID de la suscripción de Azure.
+
+
   ``` azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']``` 
 
 #### 2.- Instalación de Vagrant
 [Enlace](https://www.vagrantup.com/downloads.html)
 Ejecutamos el siguiente comando ‘’’sudo apt-get -y install vagrant’’’
+
 Creamos un directorio y en él un archivo de nombre ‘’’Vagrantfile’’’ en el cual vamos agregar lo siguiente [Enlace-Vagrantfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/Vagrantfile)
 
 #### 3.- Instalación de los complementos que necesita Vagrant-Azure
-```vagrant box add azure https://github.com/azure/vagrant-azure/raw/v2.0/dummy.box --provider azure```
-``` vagrant up --no-parallel```
+
+>```vagrant box add azure https://github.com/azure/vagrant-azure/raw/v2.0/dummy.box --provider azure```
+
+>``` vagrant up --no-parallel```
 
 #### 4.- Provisionamiento de la maquina virtual:
 En este [Enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/provision/chef-solo) pueden observar el provisionamiento
