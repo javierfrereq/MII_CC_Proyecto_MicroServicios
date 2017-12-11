@@ -1,5 +1,7 @@
 # Orquestación 
-Se realizó la orquestación por medio de la ayuda de Vagrant 2.0.1 y del cliente Azure, he decidido utilizar este cliente ya que nos facilita la información para configurar el vagrant de forma más sencilla.
+Orquestaremos 2 máquinas virtuales, las que se requieren para el proyecto en el que se está desarrollando. 
+Con la ayuda de Vagrant 2.0.1 y del cliente Azure, he decidido utilizar este cliente ya que nos facilita la información para configurar el vagrant de forma más sencilla.
+
 ## Que es Vagrant? 
 Es una herramienta que facilita la creación de entornos virtuales para desarrollo. Por medio del Vagrant podemos instalar y configurar software en una máquina virtual.
 La ventaja de Vagrant es que tiene “Cajas – Contenedores” con sistemas operativos para desarrollar directamente en ellos. 
@@ -8,8 +10,10 @@ La ventaja de Vagrant es que tiene “Cajas – Contenedores” con sistemas ope
 
 ## Instalaciones para realizar la Orquestación 
 #### 1.- Instalamos el CLI de Azure 
-[Enlace](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+Para realizar la instalación del [CLI_AZURE](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) podemos guiarnos en este [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/automatizacion).
+
 Iniciamos sesión en el terminal ``` az login``` .
+
 Ejecutamos el siguiente comando ``` az ad sp create-for-rbac```  para crear una Aplicación de Azure con acceso al Administrador de Recursos de Azure y obtener los siguientes parámetros:
 
 
@@ -26,10 +30,11 @@ Ejecutamos ``` az account list --query "[?isDefault].id" -o tsv``` para obtener 
   ``` azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']``` 
 
 #### 2.- Instalación de Vagrant
-[Enlace](https://www.vagrantup.com/downloads.html)
-Ejecutamos el siguiente comando ‘’’sudo apt-get -y install vagrant’’’
+Descargamos el Vagrant correspondiente al sistema operativo que estamos usando de este [Enlace](https://www.vagrantup.com/downloads.html). Como nosotros estamos utilizando una distribución en Linux los procederemos a instalar mediante el siguiente comando ```dpkg -i nombre_archivo.deb```
 
-Creamos un directorio y en él un archivo de nombre ‘’’Vagrantfile’’’ en el cual vamos agregar lo siguiente [Enlace-Vagrantfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/Vagrantfile)
+O Ejecutamos el siguiente comando ```sudo apt-get -y install vagrant```
+
+Creamos un directorio y en él un archivo de nombre ```Vagrantfile``` en el cual vamos agregar lo siguiente [Enlace-Vagrantfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/Vagrantfile)
 
 #### 3.- Instalación de los complementos que necesita Vagrant-Azure
 
