@@ -1,5 +1,6 @@
 # Orquestación 
-Orquestaremos 2 máquinas virtuales, las que se requieren para el proyecto en el que se está desarrollando. 
+Orquestaremos 2 máquinas virtuales, las que se requieren para el proyecto que se está desarrollando. 
+
 Con la ayuda de Vagrant 2.0.1 y del cliente Azure, he decidido utilizar este cliente ya que nos facilita la información para configurar el vagrant de forma más sencilla.
 
 ## Que es Vagrant? 
@@ -30,7 +31,9 @@ Ejecutamos ``` az account list --query "[?isDefault].id" -o tsv``` para obtener 
   ``` azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']``` 
 
 #### 2.- Instalación de Vagrant
-Descargamos el Vagrant correspondiente al sistema operativo que estamos usando de este [Enlace](https://www.vagrantup.com/downloads.html). Como nosotros estamos utilizando una distribución en Linux los procederemos a instalar mediante el siguiente comando ```dpkg -i nombre_archivo.deb```
+Descargamos el Vagrant correspondiente al sistema operativo que estamos usando de este [Enlace](https://www.vagrantup.com/downloads.html). 
+
+Lo procederemos a instalar mediante el siguiente comando ```dpkg -i nombre_archivo.deb```
 
 O Ejecutamos el siguiente comando ```sudo apt-get -y install vagrant```
 
