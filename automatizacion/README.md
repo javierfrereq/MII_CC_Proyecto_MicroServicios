@@ -31,6 +31,7 @@ Iniciamos sesión para ingresar a nuestra cuenta en Azure con el comando:
 ```az login```
 Nos indicara que ingresemos a la página web e ingresemos el código para autenticación de nuestra cuenta en Azure
 ![image-2017-11-24](https://user-images.githubusercontent.com/32844919/33214122-d5db1eaa-d12a-11e7-9609-d07ef97bd301.jpg)
+
 Una vez que ya iniciado sesión en la cuenta de Azure, procedemos a el script que ya creamos. Este automatizara la creación y el provisionamiento de la máquina virtual . 
 * Ejecutamos el script [acopio.sh](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/acopio.sh) 
 ### Descripción del script 
