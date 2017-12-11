@@ -2,7 +2,7 @@
 Utilizaremos "Azure" para realizar la automatizacion del Proyecto 
 [MII_CC_Proyecto_Microservicios](https://javierfrereq.github.io/MII_CC_Proyecto_MicroServicios/)
 ### Instalación de AZURE CLIENTE
-Para realizar la instalación del Cliente Azure debemos isntalar los siguientes requisitos:
+Debemos instalar los siguientes requisitos:
 ```
 #!/bin/bash
 #Instalación de Ansible
