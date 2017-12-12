@@ -46,9 +46,8 @@ Para finalizar con la orquestación debemos ingresar los siguientes comandos:
 
 >```vagrant box add azure https://github.com/azure/vagrant-azure/raw/v2.0/dummy.box --provider azure```
 
->```vagrant plugin install vagrant-azure```
+>```vagrant up --no-parallel```
 
->```vagrant up --provider=azure```
 
 #### 4.- Provisionamiento de la maquina virtual:
 En este [Enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/provision/chef-solo) pueden observar el provisionamiento.
