@@ -2,7 +2,7 @@
 
 Proyecto se basa en ayudar al funcionamiento del Juego "Prelo" ya que este consiste en resolver preguntas que otros usuarios seleccionaran en el mapa
 
-En este **[enlace](https://tonyesp.github.io/MII\_CC\_Proyecto/)** podrás informarte de que consiste el Juego "Prelo".
+En este **[enlace](https://tonyesp.github.io/MII_CC_Proyecto/)** podrás informarte de que consiste el Juego "Prelo".
 
 ### **Solución propuesta**
 
