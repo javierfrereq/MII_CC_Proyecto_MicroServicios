@@ -58,7 +58,9 @@ La documentación se detalla en este **[enlace](https://github.com/javierfrereq/
 
 ### Provisionamiento
 
-El provisionamiento de los servicios lo puedes encontrar en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/chef-solo/README.md)***
+El provisionamiento con Chef-Solo de los servicios lo puedes encontrar en este ***[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/chef-solo/README.md)***
+
+El provisionamiento con Ansible de los servicios lo puedes encontrar en este **[enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/ansible/README.md)**
 
 ### Orquestación 
 
