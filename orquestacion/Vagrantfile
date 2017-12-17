@@ -5,11 +5,13 @@ AZURE_CLIENT_SECRET = ENV['AZURE_CLIENT_SECRET']
 AZURE_SUBSCRIPTION_ID = ENV['AZURE_SUBSCRIPTION_ID']
 
 Vagrant.configure("2") do |config|
+
   config.vm.define "ServicioWeb" do |serviceWeb|
     serviceWeb.vm.box = 'azure'
 
     # Local SSH key to connect to Vagrant Box
     serviceWeb.ssh.private_key_path = '~/.ssh/id_rsa'
+    
     serviceWeb.vm.provider :azure do |azure, override|
       
       # Set a territory
@@ -30,9 +32,9 @@ Vagrant.configure("2") do |config|
     end
 
      # Provision the virtual machine Ansible
-      ServicioWeb.vm.provision "ansible" do |ansible|
+      config.vm.provision "ansible" do |ansible|
       ansible.playbook = "provision.yml"
-      end
+     end
  end
 
  config.vm.define "BaseDatos" do |serviceBase|
@@ -40,7 +42,8 @@ Vagrant.configure("2") do |config|
 
     # Local SSH key to connect to Vagrant Box
     serviceBase.ssh.private_key_path = '~/.ssh/id_rsa'
-    serviceBase.vm.provider :azure do |azure, override|
+    
+   serviceBase.vm.provider :azure do |azure, override|
       
       #Set a territory
       azure.location="westeurope"
@@ -58,10 +61,10 @@ Vagrant.configure("2") do |config|
       azure.client_secret = AZURE_CLIENT_SECRET
       azure.subscription_id = AZURE_SUBSCRIPTION_ID
     
-  end
+   end
       # Provision the virtual machine chef-solo
         config.vm.provision "chef_solo" do |chef|
         chef.cookbooks_path = "BaseDatos"
-        end
+       end
    end
 end
