@@ -10,9 +10,6 @@ end
 
 package "mysql-server"
 
-execute "export LC_ALL=C" do
-command "export LC_ALL=C"
-
 end
 
 
