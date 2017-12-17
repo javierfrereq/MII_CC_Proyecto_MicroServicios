@@ -58,11 +58,10 @@ Vagrant.configure("2") do |config|
       azure.client_secret = AZURE_CLIENT_SECRET
       azure.subscription_id = AZURE_SUBSCRIPTION_ID
     end
- 
+  end
       # Provision the virtual machine chef-solo
         config.vm.provision "chef_solo" do |chef|
         chef.cookbooks_path = "BaseDatos"
-      end
-  end
+        end
 
 end
