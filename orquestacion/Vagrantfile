@@ -1,3 +1,9 @@
+# Variables 
+AZURE_TENANT_ID = ENV['AZURE_TENANT_ID']
+AZURE_CLIENT_ID = ENV['AZURE_CLIENT_ID']
+AZURE_CLIENT_SECRET = ENV['AZURE_CLIENT_SECRET']
+AZURE_SUBSCRIPTION_ID = ENV['AZURE_SUBSCRIPTION_ID']
+
 Vagrant.configure("2") do |config|
   config.vm.define "ServicioWeb" do |serviceObject|
     serviceObject.vm.box = 'azure'
@@ -17,10 +23,10 @@ Vagrant.configure("2") do |config|
       azure.vm_image_urn="OpenLogic:CentOS:7.3:latest"
 
       # set the variables
-      azure.tenant_id = ENV['AZURE_TENANT_ID']
-      azure.client_id = ENV['AZURE_CLIENT_ID']
-      azure.client_secret = ENV['AZURE_CLIENT_SECRET']
-      azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
+      azure.tenant_id = AZURE_TENANT_ID
+      azure.client_id = AZURE_CLIENT_ID
+      azure.client_secret = AZURE_CLIENT_SECRET
+      azure.subscription_id = AZURE_SUBSCRIPTION_ID
     end
 
      # Provision the virtual machine
@@ -47,10 +53,10 @@ Vagrant.configure("2") do |config|
       azure.vm_image_urn="OpenLogic:CentOS:7.3:latest"
 
       # set the variables
-      azure.tenant_id = ENV['AZURE_TENANT_ID']
-      azure.client_id = ENV['AZURE_CLIENT_ID']
-      azure.client_secret = ENV['AZURE_CLIENT_SECRET']
-      azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
+      azure.tenant_id = AZURE_TENANT_ID
+      azure.client_id = AZURE_CLIENT_ID
+      azure.client_secret = AZURE_CLIENT_SECRET
+      azure.subscription_id = AZURE_SUBSCRIPTION_ID
     end
  
       # Provision the virtual machine
