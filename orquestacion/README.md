@@ -26,7 +26,7 @@ Ejecutamos el siguiente comando ``` az ad sp create-for-rbac```  para crear una 
   ```azure.tenant_id = ENV['AZURE_TENANT_ID']```
 
   ```azure.client_id = ENV['AZURE_CLIENT_ID']```
-
+#### 4.- Creación de Vagranfile
   ```azure.client_secret = ENV['AZURE_CLIENT_SECRET']```
 
   
@@ -41,9 +41,12 @@ Lo procederemos a instalar mediante el siguiente comando ```dpkg -i nombre_archi
 
 O Ejecutamos el siguiente comando ```sudo apt-get -y install vagrant```
 
+
+#### 4.- Creación de Vagranfile
 Creamos un directorio y en él un archivo de nombre ```Vagrantfile``` en el cual vamos agregar lo siguiente [Enlace-Vagrantfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/orquestacion/Vagrantfile)
 
-#### 4.- Ejecución del Vagrant-Azure
+
+#### 5.- Ejecución del Vagrant-Azure
 Para finalizar con la orquestación debemos ingresar los siguientes comandos:
 
 >```vagrant box add azure https://github.com/azure/vagrant-azure/raw/v2.0/dummy.box --provider azure```
