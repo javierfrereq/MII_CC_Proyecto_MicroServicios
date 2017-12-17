@@ -18,4 +18,4 @@
 
  # Instalación de php
     - name: install php
-      apt: name=php5 state=present
+      apt: name=php7 state=present
