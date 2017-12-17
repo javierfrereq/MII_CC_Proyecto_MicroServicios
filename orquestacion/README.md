@@ -49,6 +49,3 @@ Para finalizar con la orquestación debemos ingresar los siguientes comandos:
 >```vagrant up --no-parallel```
 
 
-#### 4.- Provisionamiento de la maquina virtual:
-En este [Enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/provision/chef-solo) pueden observar el provisionamiento.
->echo https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicio/tree/master/provision/chef-solo
