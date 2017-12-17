@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
       # Provision the virtual machine
       BaseDatos.vm.provision "ansible" do |ansible|
       ansible.playbook = "provision.yml"
-    end
+      end
   end
 
 end
