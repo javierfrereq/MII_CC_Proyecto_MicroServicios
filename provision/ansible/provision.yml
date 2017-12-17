@@ -1,0 +1,21 @@
+---
+- hosts: all
+  sudo: yes
+ 
+ tasks:
+
+  # Actualización del sistema
+    - name: update apt cache
+      apt: update_cache=yes
+
+ # Instalación de Apache
+    - name: install apache
+      apt: name=apache2 state=present
+
+ # Instalación de mysql
+    - name: install mysql
+      apt: name=mysql-server state=present
+
+ # Instalación de php
+    - name: install php
+      apt: name=php5 state=present
