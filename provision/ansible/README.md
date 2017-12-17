@@ -35,5 +35,5 @@ Hosts
 [IP] ansible_user=ubuntu
 ```
 
-La receta para el provisionamiento es la siguiente [Ansible]() 
+La receta para el provisionamiento es la siguiente [Ansible](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/provision/ansible/provision.yml) 
 
