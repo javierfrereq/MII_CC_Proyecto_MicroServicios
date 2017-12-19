@@ -3,6 +3,7 @@ AZURE_TENANT_ID = ENV['AZURE_TENANT_ID']
 AZURE_CLIENT_ID = ENV['AZURE_CLIENT_ID']
 AZURE_CLIENT_SECRET = ENV['AZURE_CLIENT_SECRET']
 AZURE_SUBSCRIPTION_ID = ENV['AZURE_SUBSCRIPTION_ID']
+Key = '~/.ssh/id_rsa'
 
 Vagrant.configure("2") do |config|
 
@@ -10,7 +11,7 @@ Vagrant.configure("2") do |config|
     serviceWeb.vm.box = 'azure'
 
     # Local SSH key to connect to Vagrant Box
-    serviceWeb.ssh.private_key_path = '~/.ssh/id_rsa'
+    serviceWeb.ssh.private_key_path = Key
     
     serviceWeb.vm.provider :azure do |azure, override|
       
@@ -41,7 +42,7 @@ Vagrant.configure("2") do |config|
     serviceBase.vm.box = 'azure'
 
     # Local SSH key to connect to Vagrant Box
-    serviceBase.ssh.private_key_path = '~/.ssh/id_rsa'
+    serviceBase.ssh.private_key_path = key
     
    serviceBase.vm.provider :azure do |azure, override|
       
