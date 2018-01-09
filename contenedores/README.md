@@ -5,7 +5,7 @@ Docker es una plataforma de software que le permite crear, probar e implementar 
 ![homepage-docker-logo-2-300x248](https://user-images.githubusercontent.com/32844919/34720160-0364ff44-f53e-11e7-8bf8-149e51d829f9.png) 
 ### Creación de la imagen Docker
 Primero debemos creamos una cuenta en [Docker](https://hub.docker.com).
-Para poder crear la imagen desde nuestro [dockerfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/Dockerfile), debemos enlazar el repositorio de [GitHub](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios) a utilizar con el repositorio de [Dockerhub](https://hub.docker.com/r/javierfrereq/mii_cc_proyecto_microservicios) y luego crear automáticamente la imagen. 
+Para poder crear la imagen desde nuestro [dockerfile](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/Dockerfile), debemos enlazar el repositorio de [GitHub](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios) a utilizar con el repositorio de [DockerHub](https://hub.docker.com/r/javierfrereq/mii_cc_proyecto_microservicios) y luego crear automáticamente la imagen. 
 
 ![image-2018-01-09](https://user-images.githubusercontent.com/32844919/34741363-b677f700-f582-11e7-90ab-f1d3e083a8ce.png)
 ![image-2018-01-09 1](https://user-images.githubusercontent.com/32844919/34741782-1a8d8f88-f584-11e7-90c4-67813812ab96.png)
