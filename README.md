@@ -82,7 +82,6 @@ Con la ayuda de la plataforma Azure desplegamos la máquina virtual en la cual c
 * Dockerhub:https://hub.docker.com/r/javierfrereq/mii_cc_proyecto_microservicios
 
 
-
 ### Licencia
 
 Proyecto bajo licencia **[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)**
