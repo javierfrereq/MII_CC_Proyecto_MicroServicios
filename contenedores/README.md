@@ -1,4 +1,4 @@
-## Despliegue de un contenedor de Dockerhub  
+## Despliegue de un contenedor de Docker Hub  
 ### Que es Docker? 
 Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.
 
@@ -20,7 +20,7 @@ Podemos visualizar que el dockerfile a utilizar esta subido correctamente en la 
 Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en Azure con el comando:
 ```az login```. Para más detalle pueden visualizarlo en este [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/automatizacion).
 
-### Despliegue de un contenedor de Dockerhub
+### Despliegue de un contenedor de Docker Hub
 1.- Instalamos Docker con la siguiente línea de comandos:
 
 `sudo apt-get install docker.io`
@@ -37,7 +37,7 @@ Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en 
 
 `sudo docker run -it javierfrereq/mii_cc_proyecto_microservicios bash`
 
-### Despliegue de la máquina virtual en Azure con la imagen de Docker creada
+### Despliegue de la máquina virtual en Azure con la imagen de Docker Hub creada
 1.- Creación de deployment user set:
 
 `az webapp deployment user set --user-name javierfrere --password contraseña`
@@ -50,7 +50,7 @@ Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en 
 
 `az appservice plan create --name MII_CC_Master_UGR --resource-group MII_CC_Master --sku S1 --is-linux`
 
-4.- Crear nuestra web app service con nuestra imagen subida a Dockerhub:
+4.- Crear nuestra web app service con nuestra imagen subida a Docker Hub:
 
 `az webapp create --resource-group MII_CC_Master --plan MII_CC_Master_UGR --name microserviciougr --deployment-container-image-name javierfrereq/mii_cc_proyecto_microservicios`
 
