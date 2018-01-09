@@ -11,7 +11,7 @@ Para poder crear la imagen desde nuestro [dockerfile](https://github.com/javierf
 ![image-2018-01-09 1](https://user-images.githubusercontent.com/32844919/34741782-1a8d8f88-f584-11e7-90c4-67813812ab96.png)
 
 Se ha configurado un dockerfile la cual vamos a utilizar en este Hito con la distribución de Ubuntu lo pueden visualizar en el siguiente [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/Dockerfile).
-Y como ejemplos se ha realizado un dockerfile con la distribución de Centos configurado los servicios de httpd, mysql, php, supervisord y sshd lo pueden visualizar en el siguiente [enlace](https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileCentos) y un dockerfile con la distribución de Ubuntu configurado el Mysql, lo pueden visualizar en el siguiente enlace [enlace]( https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileSQL).
+Y como ejemplos se ha realizado un dockerfile con la distribución de *Centos* configurado los servicios de httpd, mysql, php, supervisord y sshd lo pueden visualizar en el siguiente [enlace](https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileCentos) y un dockerfile con la distribución de *Ubuntu* configurado el Mysql, lo pueden visualizar en el siguiente enlace [enlace]( https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileSQL).
 
 Podemos visualizar que el dockerfile a utilizar esta subido correctamente en la cuenta de DockerHub.
 
