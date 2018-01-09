@@ -21,15 +21,19 @@ Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en 
 ```az login```. Para más detalle pueden visualizarlo en este [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/automatizacion).
 ### Despliegue de la máquina virtual en Azure con la imagen de Docker creada
 1.- Creación de deployment user set:
+
 `az webapp deployment user set --user-name javierfrere --password contraseña`
 
 2.- Creación de un grupo para los servicios:
+
 `az group create --name MII_CC_Master --location "West Europe"`
 
 3.- Creación del plan de los servicios:
+
 `az appservice plan create --name MII_CC_Master_UGR --resource-group MII_CC_Master --sku S1 --is-linux`
 
 4.- Crear nuestra web app service con nuestra imagen subida a Dockerhub:
+
 `az webapp create --resource-group MII_CC_Master --plan MII_CC_Master_UGR --name microserviciougr --deployment-container-image-name javierfrereq/mii_cc_proyecto_microservicios`
 
 ### Comprobación que la Creación de la imagen Docker fue exitosa.
