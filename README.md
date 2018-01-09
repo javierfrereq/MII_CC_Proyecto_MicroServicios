@@ -71,6 +71,7 @@ La documentación se detalla en este **[enlace](https://github.com/javierfrereq/
 * Despliegue Vagrant:52.166.234.128
 
 ### Contenedores
+
 Se utilizó Docker ya que nos brinda integración y elimina los conflictos entre paquetes, lenguajes y versiones. Crea y envía aplicaciones distribuidas con contenido e infraestructura gestionadas y protegidas mediante TI. 
 
 Para este hito utilizamos la distribución de ubuntu:17.04 ya que es de fácil administración y nos brinda estabilidad. 
