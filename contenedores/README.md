@@ -19,6 +19,24 @@ Podemos visualizar que el dockerfile a utilizar esta subido correctamente en la 
 
 Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en Azure con el comando:
 ```az login```. Para más detalle pueden visualizarlo en este [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/automatizacion).
+
+### Despliegue de un contenedor de Dockerhub
+1.- Instalamos Docker con la siguiente línea de comandos:
+
+`sudo apt-get install docker.io`
+
+2.- Descargarnos el contenedor de la aplicación:
+
+`docker pull javierfrereq/mii_cc_proyecto_microservicios`
+
+3.- Iniciamos el servicio con la siguiente línea:
+
+`sudo service docker start`
+
+4.- Ejecutamos el contenedor:
+
+`sudo docker run -it javierfrereq/mii_cc_proyecto_microservicios bash`
+
 ### Despliegue de la máquina virtual en Azure con la imagen de Docker creada
 1.- Creación de deployment user set:
 
