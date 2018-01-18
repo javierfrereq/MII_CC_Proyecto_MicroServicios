@@ -10,7 +10,7 @@ Para poder crear la imagen desde nuestro [dockerfile](https://github.com/javierf
 ![image-2018-01-09](https://user-images.githubusercontent.com/32844919/34741363-b677f700-f582-11e7-90ab-f1d3e083a8ce.png)
 ![image-2018-01-09 1](https://user-images.githubusercontent.com/32844919/34741782-1a8d8f88-f584-11e7-90c4-67813812ab96.png)
 
-Se ha configurado un dockerfile la cual vamos a utilizar en este Hito con la distribución de Ubuntu lo pueden visualizar en el siguiente [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/Dockerfile).
+Se ha configurado un Dockerfile la cual vamos a utilizar en este Hito la *python:alpine*  ya que viene instalado Python adicional a eso el peso es menor (89.2 Mb) comparado con otras imágenes.  [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/Dockerfile).
 Y como ejemplos se ha realizado un dockerfile con la distribución de *Centos* configurado los servicios de httpd, mysql, php, supervisord y sshd lo pueden visualizar en el siguiente [enlace](https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileCentos) y un dockerfile con la distribución de *Ubuntu* configurado el Mysql, lo pueden visualizar en el siguiente enlace [enlace]( https://github.com/javierfrereq/prueba-docker/blob/master/DockerfileSQL).
 
 Podemos visualizar que el dockerfile a utilizar esta subido correctamente en la cuenta de DockerHub.
@@ -52,9 +52,7 @@ Nota: previo al despliegue, iniciamos sesión para ingresar a nuestra cuenta en 
 
 4.- Crear nuestra web app service con nuestra imagen subida a Docker Hub:
 
-`az webapp create --resource-group MII_CC_Master --plan MII_CC_Master_UGR --name microserviciougr --deployment-container-image-name javierfrereq/mii_cc_proyecto_microservicios`
+`az webapp create --resource-group MII_CC_Master --plan MII_CC_Master_UGR --name microservicioexamen --deployment-container-image-name javierfrereq/mii_cc_proyecto_microservicios`
 
 ### Comprobación que la Creación de la imagen Docker fue exitosa.
-![ok](https://user-images.githubusercontent.com/32844919/34740581-2dfadeda-f580-11e7-8452-b13152054cb3.PNG)
-
-
+![image](https://user-images.githubusercontent.com/32844919/35116634-63354924-fc8c-11e7-910c-b7b5f125b931.png)
