@@ -74,10 +74,13 @@ La documentación se detalla en este **[enlace](https://github.com/javierfrereq/
 
 Se utilizó Docker ya que nos brinda integración y elimina los conflictos entre paquetes, lenguajes y versiones. Crea y envía aplicaciones distribuidas con contenido e infraestructura gestionadas y protegidas mediante TI. 
 
-Para este hito utilizamos la distribución de ubuntu:17.04 ya que es de fácil administración y nos brinda estabilidad. 
+Hubo muchos cambios en el transcurso del desarrollo del proyecto y ahora se procederá a trabajar con Python. 
+
+Para este hito se ha configurado un Dockerfile la cual vamos a utilizar la *python:alpine*  ya que viene instalado Python adicional a eso el peso es menor (89.2 Mb) comparado con otras imágenes.
+
 Con la ayuda de la plataforma Azure desplegamos la máquina virtual en la cual contiene la imagen creada en Dockerhub. Para más información puede consultar el siguiente [enlace](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/contenedores).
 
-* Contenedor:https://microserviciougr.azurewebsites.net
+* Contenedor:https://microservicioexamen.azurewebsites.net
 
 * Dockerhub:https://hub.docker.com/r/javierfrereq/mii_cc_proyecto_microservicios
 
