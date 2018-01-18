@@ -12,7 +12,7 @@ WORKDIR /app
 
 COPY contenedores/servicio.py /app
 
-EXPOSE 80 5000
+EXPOSE 5000
 
 ENTRYPOINT ["python"]
 
