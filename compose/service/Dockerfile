@@ -7,5 +7,5 @@ WORKDIR /opt/www
 
 RUN pip install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 80 5000
 CMD python app.py
