@@ -39,12 +39,17 @@ Luego verificamos si se crearon correctamente escribiendo el siguiente comando:
 ### Despliegue del docker-compose en Azure
 
 Utilice la siguiente **[Guía]( https://docs.microsoft.com/es-es/azure/virtual-machines/linux/docker-compose-quickstart)**
+
 1.- Iniciamos sesión en la cuenta de **[Azure](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/tree/master/automatizacion)**
+
 2.-  Ingresamos el siguiente comando para crear un grupo 
 `az group create --name MII_CC_Master-Frere --location eastus`
+
 3.- Creamos una máquina virtual de Docker para azure. 
 `az group deployment create --resource-group MII_CC_Master-Frere --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/docker-simple-on-ubuntu/azuredeploy.json`
+
 **Nota: Elegimos esta imagen porque viene instalado docker-compose.**
+
 4.- Nos conectamos mediante SSH a la VM.
 `ssh  freddyfrere@hito6freddy.eastus.cloudapp.azure.com`
 ![conexion](https://user-images.githubusercontent.com/32844919/35767244-10d95bde-08e9-11e8-83f9-0c15852729ec.PNG)
