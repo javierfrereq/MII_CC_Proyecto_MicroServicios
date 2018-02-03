@@ -2,7 +2,7 @@
 ### Que es docker-compose? 
 Docker-compose es un mecanismo que permite utilizar varias imágenes y comunicarlas, para obtener los requisitos necesarios para hacer funcionar nuestra aplicación.
 Las imágenes que se utilizaron para los servicios a implementar fueron las siguientes:
-**Servicio API: python:2.7**
+**Servicio API: [python:2.7](https://hub.docker.com/_/python/)**
 **Servicio MySQL: mysql:8**
 La plataforma Azure nos ayudara a desplegar la composición de servicios que se ha creado. 
 ### Instalación requerida
