@@ -80,6 +80,14 @@ Con la ayuda de la plataforma Azure desplegamos la máquina virtual en la cual c
 
 * Dockerhub:https://hub.docker.com/r/javierfrereq/mii_cc_proyecto_microservicios
 
+### Composición de servicios
+
+Se ha realizado una composición de servicios, para los cuales se utilizó la imagen **[python:2.7]( https://hub.docker.com/_/python/)** para ser servicio API Rest y la Imagen de **[mysql:8]( https://hub.docker.com/_/mysql/)** para la base de datos en la cual se almacenara la información de las Preguntas y Respuestas. 
+El API Rest se desarrolló en Python con ayuda del microframework **[FLASK](http://flask.pocoo.org/)** y para el servidor de sistema de gestión de base de datos se usó Mysql ya que está desarrollado bajo licencia dual: Licencia pública general/Licencia comercial.
+Con la ayuda de la plataforma Azure desplegamos la máquina virtual. Para más información puede consultar el siguiente **[enlace]( https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/compose/README.md)**.
+
+* Hito6:http://hito6freddy.eastus.cloudapp.azure.com
+
 ### Licencia
 
 Proyecto bajo licencia ***[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)***
