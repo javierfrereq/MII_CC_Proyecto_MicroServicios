@@ -94,5 +94,5 @@ Con la ayuda de la plataforma Azure desplegamos la máquina virtual. Para más i
 
 ### Licencia
 
-Proyecto bajo licencia **[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)**
+Proyecto bajo licencia **[GNU GLP V3](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/LICENSE)**.
 
