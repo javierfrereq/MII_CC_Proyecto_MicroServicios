@@ -19,8 +19,11 @@ Los **Dockerfiles** de los servicios son los siguientes:
 **[Dockerfile MySQL]( https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/compose/db/Dockerfile)**
 ### Creación del **app**  
 **[app.py](https://github.com/javierfrereq/MII_CC_Proyecto_MicroServicios/blob/master/compose/service/app.py)**
+
 Ejemplo adicional de **[App]( https://github.com/javierfrereq/Ejercicio_Hito_6/blob/master/api.py)**
+
 **Imágenes del ejemplo adicional**
+
 ![ejemplo3](https://user-images.githubusercontent.com/32844919/35767168-3f08cece-08e7-11e8-95e2-360428ed635d.jpg)
 ![ejemplo2](https://user-images.githubusercontent.com/32844919/35767169-414b2f1a-08e7-11e8-9823-4ad110903ab6.jpg)
 ![ejemplo1](https://user-images.githubusercontent.com/32844919/35767170-42f35702-08e7-11e8-8888-e3d3e781b581.jpg)
