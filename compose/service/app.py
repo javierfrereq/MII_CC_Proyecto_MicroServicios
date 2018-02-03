@@ -24,11 +24,11 @@ def conexion():
         pass
 
     if mysql_resultado:
-        result = Markup('<span style="color: green;">Conexion exitosa a la Base</span>')
+        resultado = Markup('<span style="color: green;">Conexion exitosa a la Base</span>')
     else:
-        result = Markup('<span style="color: red;">Error al conectarse a la Base</span>')
+        resultado = Markup('<span style="color: red;">Error al conectarse a la Base</span>')
 
-    return render_template('index.html', result=result)
+    return render_template('index.html', resultado=resultado)
 
 @app.route('/status')
 def statusok():
